@@ -18,7 +18,7 @@ header {
 
 nav {
     background: #ebebeb;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     padding: 30px;
 }
 
@@ -32,8 +32,9 @@ section {
 aside {
     float: right;
     background: #ebebeb;
-    width: 455px;
+    width: 445px;
     height: 260px;
+
 }
 
 article {
@@ -42,24 +43,35 @@ article {
     background: #777;
     width: 475px;
     height: 190px;
-    top: 60px;
+    top: 30px;
     left: 10px;
 }
 
 footer {
     background: #ebebeb;
     padding: 30px;
-    margin: 20px 0px 20px 0px;
+    margin-top: 300px;
+    
 }
 
 
-h1, p {
+
+h1 {
     position: relative;
     color: #777;
     background: #ebebeb;
-    width: 455px;
+    width: 445px;
     height: 50px;
-    top: -100px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
 }
 
+p {
+        position: relative;
+        color: #777;
+        background: #ebebeb;
+        width: 445px;
+        height: 50px; 
+        top: -60px;
+        left: 25px;
+    }
